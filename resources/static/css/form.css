@@ -1,0 +1,195 @@
+/* Restock form horizontal layout for supplier_permintaan_restock.html */
+.restock-form {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.restock-input {
+    width: 80px;
+    min-width: 60px;
+    max-width: 120px;
+}
+/* External form layout for supplier_stok_barang.html */
+.external-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 14px;
+}
+
+.form-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Generic centered page layout + card */
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f7fb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.card {
+    background: #ffffff;
+    padding: 32px 40px;
+    border-radius: 12px;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #111827;
+}
+
+/* Generic vertical button list */
+
+.action-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.action-list li + li {
+    margin-top: 14px;
+}
+
+/* Generic gradient primary button */
+
+.btn-primary-gradient {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    
+    border: none;
+    outline: none;
+    background: #207cca;
+    background: -moz-linear-gradient(left, #207cca 0%, #9f58a3 100%);
+    background: -webkit-linear-gradient(left, #207cca 0%,#9f58a3 100%);
+    background: linear-gradient(to right, #207cca 0%,#9f58a3 100%);
+    transition: 0.3s;
+}
+
+.btn-primary-gradient:hover {
+    transform: translateY(-3px);
+    background: #339cf5;
+}
+
+.btn-primary-gradient:focus,
+.btn-back:focus {
+    outline: none;
+}
+/* Secondary back button below primary */
+
+.btn-back {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    margin: 12px auto 0;  /* this is the GAP between them */
+    height: 40px;
+    line-height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+    background: #207cca; /* or gradient if you want */
+    background: -moz-linear-gradient(left, #207cca 0%, #9f58a3 100%);
+    background: -webkit-linear-gradient(left, #207cca 0%,#9f58a3 100%);
+    background: linear-gradient(to right, #207cca 0%,#9f58a3 100%);
+    box-shadow: 1px 4px 10px 1px #aaa;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn-back:hover {
+    transform: translateY(-3px);
+    background: #165a96;
+}
+
+/* Generic stacked form layout inside card */
+
+.form {
+    text-align: left;
+    margin-top: 12px;
+}
+
+.form-group {
+    margin-bottom: 14px;
+}
+
+.form-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 4px;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    outline: 2px solid #339cf5;
+    background-color: #ffffff;
+}
+
+.btn-primary-gradient,
+.btn-back {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    line-height: 40px; /* same vertical alignment */
+}
+
+.form-helper-text {
+    margin-top: 16px;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.form-helper-link {
+    color: #207cca;
+    text-decoration: none;
+    font-weight: 600;
+}
+
